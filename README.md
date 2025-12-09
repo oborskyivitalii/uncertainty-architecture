@@ -15,6 +15,22 @@ This repository collects conceptual materials, outlines and reference structures
 
 ⸻
 
+Philosophy & Background
+
+Uncertainty Architecture grows from a broader reflection on how modern intelligent systems reshape the conditions of software engineering itself.
+The ideas behind this framework are explored in the essay:
+
+“The Future, the Mirror and the Book” — Vitalii Oborskyi
+	•	https://www.linkedin.com/pulse/future-mirror-book-vitalii-oborskyi-7bt2f/
+	•	https://medium.com/towards-artificial-intelligence/the-future-the-mirror-and-the-book-0085eb181cfa
+	
+The essay describes the silent shift from deterministic software to systems built on probabilistic reasoning, the emergence of technogenic uncertainty as a new normal, and the role of institutions, governance and human judgment in navigating this transition. It provides the philosophical foundation for why a framework like Uncertainty Architecture — together with an AI Control Plane — is needed at this stage of technological evolution.
+
+“We are building what we cannot fully predict —
+and our practices must evolve before our systems outgrow our ability to guide them.
+
+⸻
+
 Goals
 	•	Provide a structured conceptual model for handling uncertainty in AI systems.
 	•	Define the relationship between the AI Control Plane and uncertainty-aware architectural layers.
