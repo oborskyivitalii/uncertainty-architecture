@@ -51,6 +51,9 @@ Current Status
 Initial placeholder repository.
 Full documentation, diagrams, evaluation loops, control-plane components and governance structures will be released in stages.
 
+Call for Partners
+We are currently moving from concept to pilot phase. If you are an engineering leader looking to implement this operational model in a real-world environment, please connect: https://www.linkedin.com/in/vitaliioborskyi/ .
+
 ⸻
 
 Concept Articles
