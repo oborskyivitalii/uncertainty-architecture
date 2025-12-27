@@ -16,12 +16,15 @@ It builds on the idea of an **AI Control Plane** — a management and orchestrat
 
 The framework is structured around the **AI Control Plane**—a governance layer that separates business logic from probabilistic inference.
 
+```mermaid
+graph TD;
     A[Business Logic / Deterministic Core] -->|Constraints| B(AI Control Plane);
     B -->|Request + Guardrails| C{Probabilistic Sampler / LLM};
     C -->|Raw Output| B;
     B -->|Evaluation & Validation| D[Safety & Quality Gates];
     D -->|Pass| E[User / Downstream System];
     D -->|Fail| F[Fallback / Retry Loop];
+```
 
 ## Core Components
 
