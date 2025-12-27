@@ -95,11 +95,15 @@ This is an active specification project.
 ## Governance & Contributors
 
 Maintainer & Architect:
+
 • Vitalii Oborskyi – Head of Delivery & Operations
+
 https://www.linkedin.com/in/vitaliioborskyi/
 
 Advisory Board:
+
 • Markus Kopko – Strategic Advisor on Governance & Alignment
+
 https://www.linkedin.com/in/markuskleinpmp/
 
 Upcoming Partners:
