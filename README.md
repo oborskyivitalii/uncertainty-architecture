@@ -1,71 +1,114 @@
-Uncertainty Architecture
+# Uncertainty Architecture: The Operational Standard for AI Governance
 
-A conceptual framework for structuring, evaluating and governing AI systems under uncertainty.
-Status: Early-stage, work-in-progress. Repository currently serves as a placeholder pending partner validation.
+> **Uncertainty Architecture** is an engineering framework designed to apply **Control Theory** to probabilistic AI systems. Unlike traditional software architectures that assume determinism, it introduces layers of strict guardrails, continuous evaluation loops (Golden Sets), and fallback mechanisms to manage the stochastic nature of Large Language Models (LLMs) in enterprise environments.
 
-⸻
+---
 
-Overview
+## Overview
 
-Uncertainty Architecture is a high-level model for designing and operating AI systems where outcomes are non-deterministic or probabilistic. The framework introduces a structured way to reason about uncertainty across development, evaluation, deployment and governance layers.
+Uncertainty Architecture is a high-level model for designing and operating AI systems where outcomes are non-deterministic. It introduces a structured way to reason about uncertainty across development, evaluation, deployment, and governance layers.
 
-It builds on the idea of an AI Control Plane — a management and orchestration layer responsible for coordination, policy enforcement, evaluation loops and risk-aware decision flows in LLM-based and agentic systems. Together, these concepts aim to provide a more stable foundation for building reliable AI applications in environments where uncertainty is intrinsic to system behavior.
+The industry is shifting from "Prompt Engineering" to **Deterministic Automation**. This framework provides the operational model for this transition by treating AI Governance not as a policy compliance task, but as a **closed-loop control problem**.
 
-This repository collects conceptual materials, outlines and reference structures that will be expanded after industry partner validation.
+It builds on the idea of an **AI Control Plane** — a management and orchestration layer responsible for coordination, policy enforcement, evaluation loops, and risk-aware decision flows.
 
-⸻
+## The Stack (Conceptual Model)
 
-Philosophy & Background
+The framework is structured around the **AI Control Plane**—a governance layer that separates business logic from probabilistic inference.
 
-Uncertainty Architecture grows from a broader reflection on how modern intelligent systems reshape the conditions of software engineering itself.
-The ideas behind this framework are explored in the essay:
+    A[Business Logic / Deterministic Core] -->|Constraints| B(AI Control Plane);
+    B -->|Request + Guardrails| C{Probabilistic Sampler / LLM};
+    C -->|Raw Output| B;
+    B -->|Evaluation & Validation| D[Safety & Quality Gates];
+    D -->|Pass| E[User / Downstream System];
+    D -->|Fail| F[Fallback / Retry Loop];
+
+## Core Components
+
+1. Strict Guardrails (The Actuators): Deterministic rules that constrain the model's action space before and after generation (Input/Output guarding).
+2. Golden Sets (The Sensors): Statistical evaluation datasets used to measure drift and regression in real-time, providing the feedback signal for the control loop.
+3. The AI Control Plane: The orchestration layer responsible for routing, retries, versioning (Prompts as Code), and auditability.
+4. Fallback Mechanisms: Pre-defined deterministic paths that trigger when uncertainty exceeds the safety threshold.
+
+## Philosophy & Background
+
+Uncertainty Architecture grows from a broader reflection on how modern intelligent systems reshape the conditions of software engineering itself. The ideas behind this framework are explored in the foundational essay:
 
 “The Future, the Mirror and the Book” — Vitalii Oborskyi
-- https://www.linkedin.com/pulse/future-mirror-book-vitalii-oborskyi-7bt2f/
-- https://medium.com/towards-artificial-intelligence/the-future-the-mirror-and-the-book-0085eb181cfa
-	
-The essay describes the silent shift from deterministic software to systems built on probabilistic reasoning, the emergence of technogenic uncertainty as a new normal, and the role of institutions, governance and human judgment in navigating this transition. It provides the philosophical foundation for why a framework like Uncertainty Architecture — together with an AI Control Plane — is needed at this stage of technological evolution.
 
-“We are building what we cannot fully predict —
-and our practices must evolve before our systems outgrow our ability to guide them.
+• LinkedIn: https://www.linkedin.com/pulse/future-mirror-book-vitalii-oborskyi-7bt2f/
 
-⸻
+• Medium: https://medium.com/towards-artificial-intelligence/the-future-the-mirror-and-the-book-0085eb181cfa
+
+The essay describes the silent shift from deterministic software to systems built on probabilistic reasoning, the emergence of technogenic uncertainty as a new normal, and the role of institutions in navigating this transition.
+
+“We are building what we cannot fully predict — and our practices must evolve before our systems outgrow our ability to guide them.”
+
+## Goals & Scope
 
 Goals
-- Provide a structured conceptual model for handling uncertainty in AI systems.
-- Define the relationship between the AI Control Plane and uncertainty-aware architectural layers.
-- Establish terminology and diagrams that help engineering, product and delivery teams build more predictable LLM/AI features.
-- Serve as the basis for a future public specification.
 
-⸻
+• Provide a structured conceptual model for handling uncertainty in AI systems.
+
+• Define the relationship between the AI Control Plane and uncertainty-aware architectural layers.
+
+• Establish terminology and diagrams that help engineering, product, and delivery teams build more predictable LLM/AI features.
+
+• Serve as the basis for a future public specification.
 
 Non-Goals
-- This repository does not contain implementation code.
-- It is not an operational framework, SDK or library.
-- Final structures will be published only after partner validation.
 
-⸻
+• This repository does not currently contain implementation code (SDKs or libraries).
 
-Current Status
+• It serves as a conceptual definition and governance standard.
 
-Initial placeholder repository.
-Full documentation, diagrams, evaluation loops, control-plane components and governance structures will be released in stages.
+• Final operational structures will be published only after partner validation phases.
 
-Call for Partners
-We are currently moving from concept to pilot phase. If you are an engineering leader looking to implement this operational model in a real-world environment, please connect: https://www.linkedin.com/in/vitaliioborskyi/ .
+## Core Research & Chronology
+The evolution of this framework has been documented through the following key publications:
 
-⸻
+• Dec 2025: Why AI Governance is Actually Control Theory
 
-Concept Articles
-
-Core ideas are described in the following articles:
-- Uncertainty Architecture: A Modern Approach to Designing LLM Applications
-https://pub.towardsai.net/uncertainty-architecture-a-modern-approach-to-designing-llm-applications-2fe196188fac
-- Uncertainty Architecture (LinkedIn long-form)
-https://www.linkedin.com/pulse/uncertainty-architecture-modern-approach-designing-llm-oborskyi-keqbf/
-- Roots of Uncertainty Architecture are in Control Theory(explanation)
 https://www.linkedin.com/pulse/uncertainty-architecture-why-ai-governance-actually-control-oborskyi-oqhpf/
 
-More articles will be added as the framework evolves.
+• Nov 2025: Uncertainty Architecture: A Modern Approach
 
+https://www.linkedin.com/pulse/uncertainty-architecture-modern-approach-designing-llm-oborskyi-keqbf/
 
+• Jul 2025: Architecting Uncertainty: A Modern Guide
+
+https://www.linkedin.com/pulse/architecting-uncertainty-modern-guide-llm-based-vitalii-oborskyi-0qecf/
+
+• Dec 2025: Community Stress Test (Reddit)
+
+https://www.google.com/search?q=https://www.reddit.com/r/learndatascience/comments/1hfl3a0/uncertainty_architecture_a_modern_approach_to/
+
+## Roadmap
+This is an active specification project.
+
+• [x] Phase 1: Concept Validation (Completed via Industry Stress-testing)
+
+• [ ] Phase 2: Reference Architecture (Defining the Control Plane specs)
+
+• [ ] Phase 3: Open Source Tooling (Scripts for Golden Set evaluation and Drift Detection)
+
+## Governance & Contributors
+
+Maintainer & Architect:
+• Vitalii Oborskyi – Head of Delivery & Operations
+https://www.linkedin.com/in/vitaliioborskyi/
+
+Advisory Board:
+• Markus Kopko – Strategic Advisor on Governance & Alignment
+https://www.linkedin.com/in/markuskleinpmp/
+
+Upcoming Partners:
+Strategic partnerships with Collaborative Dynamics and additional key industry co-authors (Sam W.) are currently in the final stages of formalization. The expanded contributor list will be announced in the next release cycle.
+
+## Call for Partners
+We are currently moving from concept to pilot phase. I am looking for Engineering Leaders (CTO/VP/Head of Delivery) to implement the Operational Model of Uncertainty Architecture in real-world environments.
+If you are building complex Agentic or RAG systems and want to move from "Casino AI" to engineered reliability, let's connect.
+
+Connect: https://www.linkedin.com/in/vitaliioborskyi/
+
+This framework aligns with emerging academic research on "Social Responsibility Stacks" and "Control-Theoretic AI Governance" (e.g., arXiv:2512.16873).
