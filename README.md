@@ -43,8 +43,7 @@ Independent academic research has recently confirmed the necessity of a control-
 
 • Convergence: The academic conclusion that "responsibility must be an engineered control loop" mirrors the core thesis of Uncertainty Architecture.
 
-- Link to arXiv:2512.16873](https://arxiv.org/abs/2512.16873)
-
+- [Link to arXiv:2512.16873](https://arxiv.org/abs/2512.16873)
 ### 3. Engineering Consensus
 
 The framework underwent a public stress-test in the Data Science community (Dec 2025), receiving validation from 31000+ engineers(90% Upvote) as a necessary evolution from "vibes-based" development to engineered reliability.
@@ -130,6 +129,7 @@ Creator & Lead Architect
 Responsible for the Operational Model, applying Control Theory to AI risk, and defining the delivery frameworks that make probabilistic systems enterprise-ready. Vitalii provides the architectural constraints and governance logic ensuring the system serves business goals safely.
 
 - LinkedIn: https://www.linkedin.com/in/vitaliioborskyi/
+- GitHub: https://github.com/oborskyivitalii
 
 **Sam "stunspot" Walker | The Intelligence & Foundation**
 Technical Co-Author & Lead Systems Architect
@@ -139,17 +139,20 @@ Responsible for the Reference Architecture, advanced prompt engineering strategi
 - Email: stunspot@collaborative-dynamics.com
 - Community: Collaborative Dynamics Discord
 
-**Advisory Board:**
+## Advisory Board & Partnerships
 
-Markus Kopko – Strategic Advisor on Governance & Alignment
+**Markus Kopko** – Strategic Advisor on Governance & Alignment
+(PMI AI Core Team Member)
 
-- https://www.linkedin.com/in/markuskleinpmp/
+- LinkedIn: https://www.linkedin.com/in/markuskleinpmp/
 
-Upcoming Partners:
-Strategic partnerships with Collaborative Dynamics and additional key industry co-authors (Sam W.) are currently in the final stages of formalization. The expanded contributor list will be announced in the next release cycle.
+### Strategic Partners
+Partnerships with Collaborative Dynamics are formalized. We are currently finalizing the pilot program with select industry partners.
 
 ## Call for Partners
-We are currently moving from concept to pilot phase. I am looking for Engineering Leaders (CTO/VP/Head of Delivery) to implement the Operational Model of Uncertainty Architecture in real-world environments.
+
+We are moving from concept to pilot phase. I am looking for Engineering Leaders (CTO/VP/Head of Delivery) to implement the Operational Model of Uncertainty Architecture in real-world environments.
+
 If you are building complex Agentic or RAG systems and want to move from "Casino AI" to engineered reliability, let's connect.
 
-Connect: https://www.linkedin.com/in/vitaliioborskyi/
+Connect on LinkedIn: https://www.linkedin.com/in/vitaliioborskyi/
