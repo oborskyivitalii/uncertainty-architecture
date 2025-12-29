@@ -120,19 +120,30 @@ This is an active specification project.
 
 • [ ] Phase 3: Open Source Tooling (Scripts for Golden Set evaluation and Drift Detection)
 
-## Governance & Contributors
+## Authors & Architects
 
-Maintainer & Architect:
+This standard represents a convergence of two worlds: Enterprise Governance and Advanced System Engineering. It is built on the symbiosis of strict operational control and cutting-edge prompt architecture.
 
-• Vitalii Oborskyi – Head of Delivery & Operations
+**Vitalii Oborskyi | The Structure & Governance**
+Creator & Lead Architect
 
-https://www.linkedin.com/in/vitaliioborskyi/
+Responsible for the Operational Model, applying Control Theory to AI risk, and defining the delivery frameworks that make probabilistic systems enterprise-ready. Vitalii provides the architectural constraints and governance logic ensuring the system serves business goals safely.
 
-Advisory Board:
+- LinkedIn: https://www.linkedin.com/in/vitaliioborskyi/
 
-• Markus Kopko – Strategic Advisor on Governance & Alignment
+**Sam "stunspot" Walker | The Intelligence & Foundation**
+Technical Co-Author & Lead Systems Architect
 
-https://www.linkedin.com/in/markuskleinpmp/
+Responsible for the Reference Architecture, advanced prompt engineering strategies, and the technical execution of the Control Plane. Sam provides the generative intelligence and functional engine of the framework, defining how the model interprets, reasons, and executes tasks within the architecture.
+
+- Email: stunspot@collaborative-dynamics.com
+- Community: Collaborative Dynamics Discord
+
+**Advisory Board:**
+
+Markus Kopko – Strategic Advisor on Governance & Alignment
+
+- https://www.linkedin.com/in/markuskleinpmp/
 
 Upcoming Partners:
 Strategic partnerships with Collaborative Dynamics and additional key industry co-authors (Sam W.) are currently in the final stages of formalization. The expanded contributor list will be announced in the next release cycle.
