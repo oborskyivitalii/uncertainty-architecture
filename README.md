@@ -43,7 +43,7 @@ Independent academic research has recently confirmed the necessity of a control-
 
 • Convergence: The academic conclusion that "responsibility must be an engineered control loop" mirrors the core thesis of Uncertainty Architecture.
 
-- Link to arXiv:2512.16873](https://arxiv.org/abs/2512.16873)
+- [Link to arXiv:2512.16873](https://arxiv.org/abs/2512.16873)
 
 ### 3. Engineering Consensus
 
