@@ -159,7 +159,7 @@ Responsible for the Reference Architecture, advanced prompt engineering strategi
 - LinkedIn: https://www.linkedin.com/in/markuskleinpmp/
 
 ### Strategic Partners
-Partnerships with Collaborative Dynamics are formalized. 
+Partnerships with Collaborative Dynamics are formalized. Work in progress for UA Framework v0.2.
 
 ## Call for Partners
 
