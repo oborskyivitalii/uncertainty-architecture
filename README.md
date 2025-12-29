@@ -12,6 +12,19 @@ The industry is shifting from "Prompt Engineering" to **Deterministic Automation
 
 It builds on the idea of an **AI Control Plane** — a management and orchestration layer responsible for coordination, policy enforcement, evaluation loops, and risk-aware decision flows.
 
+## Strategic Vision: From Linear to Behavioral Software
+
+While the industry uses the term "Agentic AI," we believe this is a transitional label. The fundamental shift occurring is not just about adding agents; it is the transition from **Linear Applications** to **Behavioral Applications**.
+
+- **Linear Software:** Deterministic, pre-defined paths. The developer explicitly codes *how* the system reaches the result.
+- **Behavioral Software:** Probabilistic, goal-oriented. The developer defines the *goal and constraints*, and the system navigates the path dynamically.
+
+**The Mission**
+The primary goal of this framework is to provide SMB engineering teams with the necessary operational basis to successfully build, govern, and ship Behavioral Applications.
+
+We aim to bridge the gap where teams try to build non-linear systems using linear methodologies. By introducing Control Theory as the standard for governance, we enable a reality where the industry can safely transition to Behavioral Software as the new default for complex problem solving.
+
+
 ## The Stack (Conceptual Model)
 
 The framework is structured around the **AI Control Plane**—a governance layer that separates business logic from probabilistic inference.
