@@ -141,6 +141,7 @@ Creator & Lead Architect
 
 Responsible for the Operational Model, applying Control Theory to AI risk, and defining the delivery frameworks that make probabilistic systems enterprise-ready. Vitalii provides the architectural constraints and governance logic ensuring the system serves business goals safely.
 
+- Email: oborskyivitalii@gmail.com
 - LinkedIn: https://www.linkedin.com/in/vitaliioborskyi/
 - GitHub: https://github.com/oborskyivitalii
 
@@ -151,6 +152,7 @@ Responsible for the Reference Architecture, advanced prompt engineering strategi
 
 - Email: stunspot@collaborative-dynamics.com
 - Community: Collaborative Dynamics Discord
+- LinkedIn https://www.linkedin.com/in/sam-walker-11737518/
 
 ## Advisory Board & Partnerships
 
