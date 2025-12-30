@@ -138,6 +138,7 @@ This is an active specification project.
 This standard represents a convergence of two worlds: Enterprise Governance and Advanced System Engineering. It is built on the symbiosis of strict operational control and cutting-edge prompt architecture.
 
 **Vitalii Oborskyi | The Structure & Governance**
+
 Creator & Lead Architect
 
 Responsible for the Operational Model, applying Control Theory to AI risk, and defining the delivery frameworks that make probabilistic systems enterprise-ready. Vitalii provides the architectural constraints and governance logic ensuring the system serves business goals safely.
@@ -147,6 +148,7 @@ Responsible for the Operational Model, applying Control Theory to AI risk, and d
 - GitHub: https://github.com/oborskyivitalii
 
 **Sam "stunspot" Walker | The Intelligence & Foundation**
+
 Technical Co-Author & Lead Systems Architect
 
 Responsible for the Reference Architecture, advanced prompt engineering strategies, and the technical execution of the Control Plane. Sam provides the generative intelligence and functional engine of the framework, defining how the model interprets, reasons, and executes tasks within the architecture.
