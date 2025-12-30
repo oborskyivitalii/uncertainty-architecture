@@ -20,6 +20,7 @@ While the industry uses the term "Agentic AI," we believe this is a transitional
 - **Behavioral Software:** Probabilistic, goal-oriented. The developer defines the *goal and constraints*, and the system navigates the path dynamically.
 
 **The Mission**
+
 The primary goal of this framework is to provide SMB engineering teams with the necessary operational basis to successfully build, govern, and ship Behavioral Applications.
 
 We aim to bridge the gap where teams try to build non-linear systems using linear methodologies. By introducing Control Theory as the standard for governance, we enable a reality where the industry can safely transition to Behavioral Software as the new default for complex problem solving.
