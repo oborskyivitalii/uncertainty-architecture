@@ -71,7 +71,7 @@ See [LICENSING.md](LICENSING.md) for details.
 Така "подвійна" модель чітко розмежовує *ідеї* (які мають вільно цитуватися) та *інструменти* (які мають бути безпечними для впровадження в бізнес). Це показує зрілість підходу до управління інтелектуальною власністю.
 [Timestamp: 2026/01/05 16:51:41]
 
-**user**: Перевір тепер контекст файлу цього а також цих [[LICENSING.md]] [[LICENSE-CODE.md]] [[LICENSE-DOCS.md]] 
+**user**: Перевір тепер контекст файлу цього а також цих [[../../LICENSING]] [[../../LICENSE-CODE]] [[../../LICENSE-DOCS]] 
 [Context: Notes: LICENSING.md.md, LICENSE-CODE.md.md, LICENSE-DOCS.md.md, README.md]
 [Timestamp: 2026/01/05 16:53:22]
 
@@ -85,9 +85,9 @@ See [LICENSING.md](LICENSING.md) for details.
 *   **`LICENSE-CODE.md`** та **`LICENSE-DOCS.md`** — містять повні юридичні тексти. Це краще, ніж звалювати все в один файл, де текст стає нечитабельним.
 
 ### 2. Перевірка вмісту
-*   **[[LICENSING.md]]**: Текст чіткий. Фраза *"This separation is intentional and reflects the nature of the project"* дуже важлива для Enterprise-клієнтів, оскільки знімає страх перед використанням коду (щоб юристи компаній не думали, що CC BY накладається на код).
-*   **[[LICENSE-CODE.md]]**: Це стандартний текст **Apache 2.0**. Все вірно.
-*   **[[LICENSE-DOCS.md]]**: Це стандартний текст **CC BY 4.0**. Все вірно.
+*   **[[../../LICENSING]]**: Текст чіткий. Фраза *"This separation is intentional and reflects the nature of the project"* дуже важлива для Enterprise-клієнтів, оскільки знімає страх перед використанням коду (щоб юристи компаній не думали, що CC BY накладається на код).
+*   **[[../../LICENSE-CODE]]**: Це стандартний текст **Apache 2.0**. Все вірно.
+*   **[[../../LICENSE-DOCS]]**: Це стандартний текст **CC BY 4.0**. Все вірно.
 
 ### 3. Що залишилося зробити (Action Item)
 У наданому контексті файлу **[[README]]** я все ще **не бачу** блоку `## Licensing`, про який ми говорили раніше.
