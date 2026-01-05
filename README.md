@@ -24,7 +24,25 @@ While the industry uses the term "Agentic AI," we believe this is a transitional
 
 The primary goal of this framework is to provide SMB engineering teams with the necessary operational basis to successfully build, govern, and ship Behavioral Applications.
 
-We aim to bridge the gap where teams try to build non-linear systems using linear methodologies. By introducing Control Theory as the standard for governance, we enable a reality where the industry can safely transition to Behavioral Software as the new default for complex problem solving.
+We aim to bridge the gap where teams try to build non-linear systems using linear methodologies. By introducing Control Theory as the standard for governance, we enable a reality where the industry can safely transition to Behavioral Software as the new default for complex problem 
+
+---
+
+## The Operational Formula
+
+To bridge the gap between deterministic code and probabilistic models, we apply **Control Theory**. We define **AI Governance** not as bureaucracy, but as the engineered feedback loop required to stabilize the system.
+
+> **Reliable AI = Actuators + Sensors + Controller**
+
+This maps abstract control concepts to concrete engineering artifacts:
+
+* **🦾 Actuators (The Execution):** Mechanisms that define and constrain the probability distribution.
+    * *Artifacts:* **Prompt Registry**, **Versioned Prompts**, Hyperparameters, and JSON Schemas.
+* **📡 Sensors (The Measurement):** Instruments that detect drift and measure the distance from "Business Truth".
+    * *Artifacts:* **Golden Sets** (Ground Truth), **Eval Pipelines**, and continuous Drift Monitoring.
+* **🧠 Controller (The Governance):** The decision-making logic that adjusts the system based on error signals.
+    * *Artifacts:* **The Operating Model**, **Release Gates**, and the Feedback Loop that updates the Registry based on Golden Set performance.
+
 
 ---
 ## The Stack (Conceptual Model)
@@ -186,6 +204,25 @@ If you are building complex Agentic or RAG systems and want to move from "Casino
 Connect on LinkedIn: https://www.linkedin.com/in/vitaliioborskyi/
 
 ---
+## How to Cite
+
+If you use Uncertainty Architecture in your research, architectural documents, or internal wikis, please cite it as follows to ensure proper attribution of the Operational Model.
+
+**Standard Citation:**
+
+Oborskyi, V. (2025). Uncertainty Architecture: An Operational Model for AI Governance. GitHub. [https://github.com/oborskyivitalii/uncertainty-architecture](https://github.com/oborskyivitalii/uncertainty-architecture)
+
+```bibtex
+@misc{oborskyi2025uncertainty,
+  author = {Oborskyi, Vitalii},
+  title = {Uncertainty Architecture: An Operational Model for AI Governance},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/oborskyivitalii/uncertainty-architecture}}
+}
+```
+
 ## Licensing
 
 This repository uses a dual-license model:
