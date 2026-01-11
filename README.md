@@ -1,4 +1,4 @@
-# Uncertainty Architecture (UA): The Operational Open Standard for AI Governance
+# Uncertainty Architecture (UA): The Operational Open Specification for AI Governance
 
 ---
 
