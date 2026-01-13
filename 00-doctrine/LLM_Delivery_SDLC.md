@@ -4,6 +4,7 @@ context: Core Doctrine of Uncertainty Architecture
 version:
 ---
 
+# The AI Delivery Lifecycle
 While the **Architecture Diagram** shows _what_ we are building, this **Process Diagram** shows _how_ the team works. It defines the Software Development Life Cycle (SDLC) for probabilistic software.
 
 ```mermaid
