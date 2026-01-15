@@ -241,7 +241,7 @@ GitHub is the canonical home for doctrine and changes; Discord is where ideas ar
 
 ## Authors & Architects
 
-**Vitalii Oborskyi | The Structure & Governance** _Creator & Lead Architect
+**Vitalii Oborskyi | The Structure & Governance**  *Creator & Lead Architect*
 
 **Focus:** operational framing, governance practices, adoption scaffolding, and system-level clarity.
 
