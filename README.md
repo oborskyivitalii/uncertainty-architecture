@@ -243,7 +243,7 @@ GitHub is the canonical home for doctrine and changes; Discord is where ideas ar
 
 **Vitalii Oborskyi | The Structure & Governance** _Creator & Lead Architect
 
-Focus: operational framing, governance practices, adoption scaffolding, and system-level clarity.
+**Focus:** operational framing, governance practices, adoption scaffolding, and system-level clarity.
 
 - Email: [oborskyivitalii@gmail.com](mailto:oborskyivitalii@gmail.com)
 - LinkedIn: [https://www.linkedin.com/in/vitaliioborskyi/](https://www.linkedin.com/in/vitaliioborskyi/)
@@ -251,7 +251,7 @@ Focus: operational framing, governance practices, adoption scaffolding, and syst
 
 **Sam “stunspot” Walker | Boundary Doctrine & System Patterns** _Technical Co-Author_ 
 
-Focus: AI–code boundary placement, containment patterns, prompt-as-medium realism, and real-world failure modes.
+**Focus:** AI–code boundary placement, containment patterns, prompt-as-medium realism, and real-world failure modes.
 
 - Email: [stunspot@collaborative-dynamics.com](mailto:stunspot@collaborative-dynamics.com)
 - Discord: [Stunspot Prompting](https://discord.gg/bGN45ynQ)(Channel: [🧰 uncertainty-architecture](https://discord.com/channels/1100933695986208849/1457956432287760605))
