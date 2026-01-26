@@ -58,7 +58,7 @@ graph TD
 
 ### 3. The RFC Template
 
-This RFC ratifies the following structure for all future proposals (stored in `rfcs/0000-template.md`):
+This RFC ratifies the following structure for all future proposals (stored in [0000-template](0000-template.md) ):
 
 - **Header:** Metadata (ID, Status, Scope).
 - **Summary & Motivation:** The "Why".
